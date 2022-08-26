@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #777 !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: #CCCCFF !important;
+}
+a:hover{
+    color: rgb(135, 133, 133) !important;
+}
+ul{
+    list-style: none;
+}
+.carousel-inner h1{
+    text-shadow: 1px 1px #333;
+}
+.carousel-inner .carousel-caption{
+    background: rgba(200, 200, 200, 0.3);
+    border-radius: 7px;
+}
+.card-body h2{
+    font-size: 40px;
+}
+.myicon{
+    height:30px;
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+.btnbefo::before{
+position: absolute;
+content: "";
+border-width: 10px;
+border-style:solid;
+border-color: transparent transparent lightblue transparent;
+top: 20px;
+left: 13px;
+display: none;
+}
+.btnbefo::after{
+position: absolute;
+content: " ";
+height: 40px;
+width: 80px;
+background-color: lightblue;
+top: 40px;
+left: -15px;
+border-radius: 5px;
+display: none;
+}
+.navbar-brand{
+    transition: 0.4s;
+}
+.navbar-brand:hover{
+    text-shadow: 10px 10px 20px white,
+                -10px -10px 20px white;
+}
+.dropdown-menu li a{
+    text-shadow: 1px 1px 0px black;
+}
+.carousel-item{
+    background-size:cover;
+}
+.t-lang{
+    text-align:center ;color: white;
+}
+.btt{
+    margin-left: 50px;
+}
+.img-fix{
+    height: 300px;
+    background-image: url(../img/fixed.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.f2{
+    background-image: url(../img/arnold-francisca-f77Bh3inUpE-unsplash.jpg);
+}
